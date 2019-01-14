@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="InsomniaPhoneGap.widget.InsomniaPhoneGap" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Insomnia Widget</name>
+    <description>Prevent iOS and Android devices from falling asleep</description>
+    <icon>
+        iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAclBMVEUAAAAAbe8AbfAAbf8Acu0AYP8AbO8AbvIAbfAAbfAAbfAAbfAAbPEAbfAAbfAAbfAAbfEAbOsAbfAAbvAAbvAAbfAAbu8AbvAAbfAAbfAAbPAAbfAAa/IAbPAAcPMAcO8AbfAAbfAAbPEAbfAAbfAAAADQKVK1AAAAJHRSTlMAP0QHHQhQOu38d81/Z/79jxrsQzP3X2bv8mjbJpkpIIUjWt/aPzFGAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB+MBDA8JJboofbcAAABRSURBVAjXY2BgYFSBASYGEEDnM7PAACtWeex8NnYOOJ+Ti4ubh5cPzucXEBQSFhFFqBcTl0DWLyklLo3bfBlZGJAD8+UVYEARoV4JTb8ylA8AN90QScbjCP0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDEtMTJUMTQ6MDk6MzcrMDE6MDBRwY1VAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTAxLTEyVDE0OjA5OjM3KzAxOjAwIJw16QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=
+    </icon>
+    <phonegap enabled="true"/>
+    <properties>   
+        <property key="keepAwake" type="attribute" required="true">
+            <caption>Keep Awake</caption>
+            <category>Behavior</category>
+            <description>When enabled, the plugin will keep the device awake.
+            </description> 
+            <attributeTypes>
+                <attributeType name="Boolean"/>
+            </attributeTypes>
+        </property>
+        <property key="onchangemf" type="microflow" required="false">
+            <caption>On change microflow</caption>
+            <category>Events</category>
+            <description>Microflow executed when the toggle is clicked.</description> 
+            <returnType type="Void"/>
+        </property>
+        <property key="onChangeNanoflow" type="nanoflow" required="false">
+            <caption>On change nanoflow</caption>
+            <category>Events</category>
+            <description>The nanoflow to call when the toggle is clicked.</description>
+            <returnType type="Void"/>
+        </property>
+    </properties>
+</widget>
