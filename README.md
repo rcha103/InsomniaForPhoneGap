@@ -13,7 +13,7 @@ InsomniaForPhoneGap is an based from several other projects. Credit to the follo
   - [Eddy Verbruggen](https://github.com/EddyVerbruggen) for his work on [Insomnia-PhoneGap-Plugin](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin). The widget used in this module uses his plugin.
 
 ### Requirements
-- Theoretically works on Mendix 6 or later (implemented on Mendix 7.22.2)
+- Mendix 7.12.0 or later
 - A project with a hybrid app
 
 ### Installation and configuration
